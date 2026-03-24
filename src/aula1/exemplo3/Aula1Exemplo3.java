@@ -25,12 +25,12 @@ public class Aula1Exemplo3 {
         salarioB = Double.parseDouble(sc.nextLine());
         
         System.out.println("Digite o percentual do imposto:");
-        imposto = Double.parseDouble(sc.nextLine());
+        imposto = Double.parseDouble(sc.nextLine());
 
-        salarioL = salarioB - salarioB * imposto/100;
+        salarioL = salarioB - salarioB * imposto / 100;
 
         System.out.printf("Salario liquido: %.2f", salarioL);
-
+        
     }
     
 }
